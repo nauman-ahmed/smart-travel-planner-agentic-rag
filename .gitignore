@@ -1,0 +1,135 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.env/
+.venv/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+.env.production
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# ChromaDB / Vector DB
+# =========================
+data/chroma/
+chroma/
+*.sqlite3
+
+# =========================
+# Ollama / Models
+# =========================
+models/
+ollama_models/
+*.gguf
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Docker
+# =========================
+docker-data/
+*.pid
+
+# =========================
+# n8n Runtime Data
+# =========================
+n8n/.n8n/
+n8n/database.sqlite
+
+# =========================
+# Data Files
+# =========================
+data/raw/
+data/processed/
+
+# Keep structure but ignore contents
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# =========================
+# MacOS
+# =========================
+.DS_Store
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# PyCharm
+# =========================
+.idea/
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
+.cache/
+
+# =========================
+# Testing
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Mypy / Ruff
+# =========================
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Node (if frontend later)
+# =========================
+node_modules/
+
+# =========================
+# Secrets / Credentials
+# =========================
+*.pem
+*.key
+credentials.json
+secrets.json

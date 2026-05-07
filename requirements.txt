@@ -1,0 +1,12 @@
+streamlit
+crewai
+chromadb
+ollama
+pandas
+requests
+beautifulsoup4
+python-dotenv
+sentence-transformers
+lxml
+torch
+torchvision
